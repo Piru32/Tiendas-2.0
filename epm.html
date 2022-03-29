@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>empanadas</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body class="bg-light text-dark">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+      <div class="container-fluid">
+        <a class="navbar-brand mx-2" href="index.html"><img src="img/epm2.png" width="100px" alt="epm2"><strong>Empresas Publicas de Medellín</strong></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="empanada.html">Empanadas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="rappi.html">Rappi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="abonos.html">Abonos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="epm.html">EPM ;)</a>
+            </li>
+            <a class="nav-link active" href="concierto.html">concierto</a>
+          </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container mt-5">
+      <div class="row justify-content-center">
+        <div class="col-4 border p-5">
+          <img src="img/epm1.png" class="mb-5 w-100" alt="epm1">
+          <form>
+            <label class="form-label">Estracto</label>
+            <select class="form-select mb-4" id="estracto" aria-label="Default select example">
+              <option value="Estrato 1">Estrato 1</option>
+              <option value="Estrato 2">Estrato 2</option>
+              <option value="Estrato 3">Estrato 3</option>
+              <option value="Estrato 4">Estrato 4</option>
+              <option value="Estrato 5">Estrato 5</option>
+              <option value="Estrato 6">Estrato 6</option>
+            </select>
+            <div class="mb-3">
+              <label class="form-label">Documento de identidad</label>
+              <input type="number" class="form-control" id="iden" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Valor de la deuda</label>
+              <input type="number" class="form-control" id="deuda" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Correo</label>
+              <input type="email" class="form-control" id="correo" aria-describedby="emailHelp">
+            </div>
+            <button type="submit" id="boton" class="btn btn-success w-100"><strong>Enviar</strong></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="epm.js"></script>
+</body>
+
+</html>
